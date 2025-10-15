@@ -2,7 +2,10 @@ body{
     background-color: #d0d0d3;
 }
 p{
-    line-height: 2.25em;
+    line-height: 2.35em;
 }
-
+img{
+    width: 250px;
+    float: left;
+}
 
