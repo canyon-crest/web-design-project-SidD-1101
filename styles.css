@@ -8,7 +8,7 @@ body {
 #container {
   background-color: #a9a9a9;
   padding: 2%;
-  border: 0.5vw solid seashell;
+  border: 0.2vw solid seashell;
   border-radius: 2vw;
   max-width: 70vw;
   min-width: 300px;
@@ -33,7 +33,7 @@ h1 {
   background-color: black;
   color: seashell;
   padding: 2vw;
-  border: 0.7vw solid seashell;
+  border: 0.2vw solid seashell;
   border-radius: 1vw;
   width: 80%;
   text-align: center;
@@ -45,7 +45,7 @@ h2 {
   background-color: #a29d9d;
   color: seashell;
   padding: 1.5vw;
-  border: 0.5vw solid seashell;
+  border: 0.2vw solid seashell;
   border-radius: 1vw;
   width: 60%;
   text-align: center;
