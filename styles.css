@@ -53,14 +53,14 @@ h2 {
 }
 
 h3 {
-  border-left: 1.5vw double seashell;
+  border-left: 1.5vw double #6b6b6b;
   font-size: 1.2em;
   color: #6f7d86;
   margin-bottom: 0.2em;
   padding: 1vw;
   border-radius: 1vw;
-  border-top: 0.2vw solid seashell;
-  border-bottom: 0.2vw solid seashell;
+  border-top: 0.2vw solid #8b8b8b;
+  border-bottom: 0.2vw solid #5b5b5b;
   width: 40%;
 }
 
@@ -122,6 +122,18 @@ a:active {
     background-color: rgb(72, 97, 156);
     color: black;
     font-weight: bold;
+}
+
+#sidebar{
+    background-color: #adaaaa;
+    width: 250px;
+    line-height: 2.3em;
+    border: 2px solid seashell;
+    float: right; 
+    margin: 20px;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 @media (max-width: 1200px) {
