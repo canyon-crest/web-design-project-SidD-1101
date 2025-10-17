@@ -118,6 +118,12 @@ a:active {
   font-weight: bold;
 }
 
+.highdarkblue {
+    background-color: rgb(72, 97, 156);
+    color: black;
+    font-weight: bold;
+}
+
 @media (max-width: 1200px) {
   #container {
     max-width: 90vw;
