@@ -1,48 +1,69 @@
-<!DOCtTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>All About Me</title>
-    <link rel="stylesheet" href="styles.css">  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Me - Sid Devineni</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css"> 
   </head>
   
   <body>
-    <div id = "container">
+    <div id="container">
 
-<h1>Who Am I?</h1>
+      <h1>Who Am I?</h1>
 
-<h2>Sid Devineni</h2>
+      <h2>Sid Devineni</h2>
+      
+      <!-- The Facts Key is now placed inside the content box below -->
 
-<h3>Future Aspirations</h3>
-<div id="sidebar">
-  <h2> Facts About Me </h2>
-  <ul>
-    <li><a href="#fact-one"> Fact 1 </a></li>
-    <li><a href="#fact-two"> Fact 2 </a></li>
-    <li><a href="#fact-three"> Fact 3 </a></li>
-  </ul>
-</div>
-<p>
-<img src = "images/Screenshot 2025-10-14 1.34.02 PM.png" id = "1">
-I'm a sophomore at CCA aiming to <span class = "highdarkblue"> study <a href="https://en.wikipedia.org/wiki/Computer_science" target = "_blank"> computer science</a>, physics, or finance in college. </span> I hope to learn even more about these topics as I age and progress through the education system. For the particulars of each, let's start with computer science. In computer science, the one aspect I'm most interested in is AI and neural networks because I find it interesting doing work in training a machine and also refining it to do certain tasks with more efficiency and computation intelligence along with joining the quest for sentient humanoids. The aspect of physics that intrigues me the most is quantum mechanics because it has many applications with technology and forces like quantum computing and theoretical forces that could be applied to other machines. Lastly, for finance, I enjoy investing and building assets of all kinds specifically because it brings short term rewards and long term rewards when done correctly along with a challenge with deciding what to invest in and build. 
-</p>
+      <h3 id="future-aspirations">Future Aspirations</h3>
+      
+      <!-- New wrapper to create the 'box' containing the facts key -->
+      <div id="aspirations-content-box">
+          <div id="sidebar" class="sidebar">
+            <h2> Facts About Me </h2>
+            <ul>
+              <li><a href="#fact-one"> Fact 1</a></li>
+              <li><a href="#fact-four"> Fact 2</a></li>
+              <li><a href="#fact-five"> Fact 3</a></li>
+            </ul>
+          </div>
 
-<div class="Dividers" id="fact-one">
-  <h3>Fun Fact:</h3>
-  <p><span class = "highlight">I'm Toby's number one fan!</span></p>
-</div>
+          <p>
+            <img src="images/Screenshot 2025-10-14 1.34.02 PM.png" id="pic1" alt="portrait of Sid">
+            I'm a sophomore at CCA aiming to <span class = "highdarkblue"> study <a href="https://en.wikipedia.org/wiki/Computer_science" target="_blank" rel="noopener noreferrer"> computer science</a>, physics, or finance in college. </span> I hope to learn even more about these topics as I age and progress through the education system. For the particulars of each, let's start with computer science. In computer science, the one aspect I'm most interested in is AI and neural networks because I find it interesting doing work in training a machine and also refining it to do certain tasks with more efficiency and computation intelligence along with joining the quest for sentient humanoids. The aspect of physics that intrigues me the most is quantum mechanics because it has many applications with technology and forces like quantum computing and theoretical forces that could be applied to other machines. Lastly, for finance, I enjoy investing and building assets of all kinds specifically because it brings short term rewards and long term rewards when done correctly along with a challenge with deciding what to invest in and build. 
+          </p>
+      </div>
 
-<h3>Things I'm Working On</h3>
-<p>
-<img src = "images/Screenshot 2025-10-14 1.34.24 PM.png" id = "2">
-When it comes to the work I'm doing in my spare time, I find myself doing small parts of larger problems to learn more and get some achievements if I am successful. For example, I participate in AI research into the <a href="https://en.wikipedia.org/wiki/Neural_network_(machine_learning)" target="_blank">neural network </a>
- side of things to see how we can translate desirable features of the brain into 1s and 0s. <span class = "highdarkblue"> I find this interesting because we can get more efficient machines, LLMs, and data visualization </span> with small adjustments that could also eventually lead to sentient AI which could go in multiple directions. In physics I don’t really solve any problems or do anything much but I do look into interesting news and keep up my knowledge as it definitely doesn't hurt to have extra knowledge of one of the most general subjects. And for Finance, I do investing and competitions but I mainly work on the portfolio and with others to make the best investment choices and learn new things while building a better portfolio.
-</p>
 
-<h3>Interests</h3>
-<p>
-<img src = "images/Screenshot 2025-10-14 1.35.07 PM.png" id = "3">
-Other than those 3 subjects, I do other things in my spare time like building small businesses, <a href="https://en.wikipedia.org/wiki/Personal_computer" target = "_blank"> PC's</a>, biking, playing some games, working out, and building things. <span class = "highdarkblue"> I enjoy doing side hustles and building businesses because it’s satisfying </span> and I can learn a few things that I can apply to the real world later on. I build PC’s because it is once again satisfying and I’ve made a nice little small business out of it as an excuse to construct more. I also ride my mountain bike and ebike around because it's enjoyable and I have easy access to a downward trail behind my house. I play some games in my free time too if my friends are on. I do some workouts every day and also have some home equipment so I don’t have to pay a hefty membership fee. When I get ideas, timee, and supplies I build things like basic machines, gadgets, and motorized vehicles to pass some time.
-</p>
-</div>
+      <div class="Dividers" id="fact-one">
+        <h3>Fun Fact:</h3>
+        <p class="highlight"><span class = "highlight">I'm Toby's number one fan!</span></p>
+      </div>
+      
+      <h3 id="fact-two">Things I'm Working On</h3>
+      <p class="para2">
+        <img src="images/Screenshot 2025-10-14 1.34.24 PM.png" id="pic2" alt="project screenshot">
+        When it comes to the work I'm doing in my spare time, I find myself doing small parts of larger problems to learn more and get some achievements if I am successful. For example, I participate in AI research into the <a href="https://en.wikipedia.org/wiki/Neural_network_(machine_learning)" target="_blank" rel="noopener noreferrer">neural network </a>
+        side of things to see how we can translate desirable features of the brain into 1s and 0s. <span class = "highdarkblue"> I find this interesting because we can get more efficient machines, LLMs, and data visualization </span> with small adjustments that could also eventually lead to sentient AI which could go in multiple directions. In physics I don’t really solve any problems or do anything much but I do look into interesting news and keep up my knowledge as it definitely doesn't hurt to have extra knowledge of one of the most general subjects. And for Finance, I do investing and competitions but I mainly work on the portfolio and with others to make the best investment choices and learn new things while building a better portfolio.
+      </p>
+
+      <div class="Dividers" id="fact-four">
+        <h3>Fun Fact 2:</h3>
+        <p class="highlight">I've lived in a total of 3 coutries for more than a year.<span class = "highlight"></span></p>
+      </div>
+      
+      <h3 id="fact-three">Interests</h3>
+      <p class="para3">
+        <img src="images/Screenshot 2025-10-14 1.35.07 PM.png" id="pic3" alt="hobbies and projects">
+        Other than those 3 subjects, I do other things in my spare time like building small businesses, <a href="https://en.wikipedia.org/wiki/Personal_computer" target="_blank" rel="noopener noreferrer"> PC's</a>, biking, playing some games, working out, and building things. <span class = "highdarkblue"> I enjoy doing side hustles and building businesses because it’s satisfying </span> and I can learn a few things that I can apply to the real world later on. I build PC’s because it is once again satisfying and I’ve made a nice little small business out of it as an excuse to construct more. I also ride my mountain bike and ebike around because it's enjoyable and I have easy access to a downward trail behind my house. I play some games in my free time too if my friends are on. I do some workouts every day and also have some home equipment so I don’t have to pay a hefty membership fee. When I get ideas, timee, and supplies I build things like basic machines, gadgets, and motorized vehicles to pass some time.
+      </p>
+      <div class="Dividers" id="fact-five">
+        <h3>Fun Fact 3:</h3>
+        <p class="highlight">I bike to school.<span class = "highlight"></span></p>
+      </div>
+    </div>
   </body>
 </html>
